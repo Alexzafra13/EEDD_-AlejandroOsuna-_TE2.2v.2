@@ -104,13 +104,13 @@
     ``` 
 10. Agrega una nueva rama llamada y posicionate directamente en ella con el mismo comando `fea/wac01`. ¿Qué comando/s utilizas? (busca en internet si no lo recuerdas)
     ```text
-    // Respuesta
+    git checkout -b fea/wac01
     
     ``` 
 11. En qué rama estas ahora mismo? ¿Qué comando/s utilizas?
     ```text
-    // Respuesta
-    
+    git branch
+
     ``` 
 12. Estando en la rama `fea/wac01` agrega un fichero `02.xml, y agrega al área de stage y realiza commit "Add file 02".
 
@@ -130,7 +130,7 @@
 
 13. Muestra el log utilizando solo una línea por commit con opciones gráficas. ¿Qué comando/s utilizas?
     ```text
-    // Respuesta
+    git log --oneline --graph
     
     ``` 
 14. Posicionate de nuevo en la rama `main`, y crea otra rama `fea/wac02`, posicionandote directamente en ella. Agrega un fichero `03.xml`, agrega al área de stage y realiza commit "Add file 03".
@@ -151,26 +151,31 @@
 
 15. Posicionate en la rama `main` y muestra los ficheros que hay en el directorio. ¿Qué comando/s utilizas?
     ```text
-    // Respuesta
+    git checkout main
+    dir (o ls)
     
     ``` 
 16. Realizar un merge de la rama `fea/wac01` en la rama `main`. (Indica los comandos utilizados y explica cada uno de ellos).
     ```text
-    // Respuesta
+    git checkout main(para saber que estoy en la raam main)
+    git merge fea/wac01(le indico que haga una fusion de la rama fea/wac01 a main)
     
     ``` 
 17. Muestra el estado del repositorio, el log, y los ficheros que hay en el directorio. (Imagen/gif visualizando los comandos) `adjunta la imagen`
+![Gif 01](./img/01.gif)
 18. Elimina la rama `fea/wac01` sin posibilidad de recuperación. ¿Qué comando/s utilizas?
     ```text
-    // Respuesta
+    git branch -D fea/wac01
+
     
     ``` 
 19. Realiza un merge de la rama `fea/wac02` en la rama `main`.
     ```text
-    // Respuesta
+    git merge fea/wac02
     
     ``` 
 20. Muestra el estado del repositorio, el log, y los ficheros que hay en el directorio. (Imagen) `adjunta la imagen`
+![Imagen 001](./img/001.png)
 21. Vuelve a la rama `fea/wac02` y modifica el fichero `03.xml` añadiendo un nuevo libro.
 
     ```xml
