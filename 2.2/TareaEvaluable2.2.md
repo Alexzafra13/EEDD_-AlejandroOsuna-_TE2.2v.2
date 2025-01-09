@@ -72,13 +72,13 @@
 
 6. Agrega el fichero `README.md` al stage area. ¿Qué comando/s utilizas?
    ```text
-    // Respuesta
+    git add README.md
     
     ``` 
 
 7. Realiza un commit con el mensaje "Add README". ¿Qué comando/s utilizas?
    ```text
-    // Respuesta
+    git commit -m "Add README"
     
     ``` 
 8. Agrega otro fichero `01.xml` con siguiente texto.
@@ -99,8 +99,8 @@
 
 9.  Agrega el fichero `01.xml` al stage area y realiza el commit "Add file 01.xml" ¿Qué comando/s utilizas?
     ```text
-    // Respuesta
-    
+    git add 01.xml
+    git commit -m "Add file 01.xml"
     ``` 
 10. Agrega una nueva rama llamada y posicionate directamente en ella con el mismo comando `fea/wac01`. ¿Qué comando/s utilizas? (busca en internet si no lo recuerdas)
     ```text
