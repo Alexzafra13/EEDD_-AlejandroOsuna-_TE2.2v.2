@@ -1,0 +1,23 @@
+* [33m25ad880[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m act2
+* [33md876752[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Act
+*   [33m969b797[m Merge branch 'fea/wac02'
+[32m|[m[33m\[m  
+* [33m|[m [33me2154f0[m Commit punto 30
+* [33m|[m [33m5becde0[m Add 04 file. Add cienca-ficcion books
+* [33m|[m [33mcfa21ad[m update 03 file.Add book El Hobbit
+* [33m|[m [33ma9f628d[m Merge on fea/wac02
+* [33m|[m   [33m266944e[m Merge branch 'fea/wac02'
+[34m|[m[35m\[m [33m\[m  
+* [35m\[m [33m\[m   [33m57701f4[m Merge branch 'fea/wac02' merge rama fea/wac02
+[36m|[m[1;31m\[m [35m\[m [33m\[m  
+* [1;31m|[m [35m|[m [33m|[m [33m08694ed[m Add file 02
+[1;31m|[m [1;31m|[m [35m|[m [33m|[m * [33m2a421a5[m[33m ([m[1;31morigin/fea/wac02[m[33m)[m Update 03 file. Add book El hombre bicentenario
+[1;31m|[m [1;31m|[m [35m|[m [33m|[m[33m/[m  
+[1;31m|[m [1;31m|[m [35m|[m * [33m63ce797[m Update 03 file. Add book El Silmarillion
+[1;31m|[m [1;31m|[m [35m|[m[35m/[m  
+[1;31m|[m [1;31m|[m * [33m0e0bb93[m Update 03 file. Add book El Silmarillion
+[1;31m|[m [1;31m|[m[1;31m/[m  
+[1;31m|[m * [33mdc07062[m Add file 03
+[1;31m|[m[1;31m/[m  
+* [33m2ddd996[m Add file 01.xml
+* [33mcf62b34[m add README

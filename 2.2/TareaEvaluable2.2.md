@@ -303,18 +303,19 @@
     ``` 
 4. Sube la rama `main` al repositorio remoto. ¿Qué comando/s utilizas?
    ```text
-    
+    git push -u origin main
+
     
     ``` 
 5. Muestra el log de la rama `main` con opciones gráficas. ¿Qué comando/s utilizas?
    ```text
-    // Respuesta
-    
+    git log --oneline --graph --all
+
     ``` 
 6. Posicionate en la rama `fea/wac02` y sube la rama `fea/wac02` al repositorio remoto. ¿Qué comando/s utilizas?
    ```text
-    // Respuesta
-    
+    git checkout fea/wac02
+git push -u origin fea/wac02
     ``` 
 
 7. Ahora desde GITHUB (web) en la rama `fea\wac02`, modifica el fichero `03.xml` añadiendo un nuevo libro.
@@ -358,32 +359,39 @@
 
    Realiza un commit con el mensaje "Update 03 file. Add book El hombre bicentenario".
    (Muestra pantallazo de GITHUB con el commit realizado) `adjunta la imagen`
+   ![git](./img/Update%20on%20github.png)
 
 8. Ahora obten los cambios sin acualizar el repositorio local (`git fetch origin`).
 9.  Muestra un log del repositorio local con opciones gráficas. (Incluye imagen) `adjunta la imagen`
+![imagen](./img/007.png)
     
 10. Ahora actualiza el repositorio local con los cambios del repositorio remoto (`git pull origin fea/wac02`).
     
 11. Muestra un log del repositorio local con opciones gráficas. (Incluye imagen) `adjunta la imagen`
+![imagen008](./img/008.png)
 
 12. Haz un merge de la rama `fea/wac02` en la rama `main`. Muestra estado, log, y el contenido fichero `03.xml` (Incluye imagen) `adjunta la imagen`
+![imagen009](./img/009.png)
+
+
 13. Sube la rama `main` al repositorio remoto. ¿Qué comando/s utilizas?
     ```text
-    // Respuesta
+    git push origin main
     
     ``` 
 14. Elimina la rama local `fea/wac02` sin posibilidad de recuperación. ¿Qué comando/s utilizas?
     ```text
-    // Respuesta
+    git branch -D fea/wac02
     
     ``` 
 15. Elimina la rama remota `fea/wac02` sin posibilidad de recuperación (git push origin --delete fea/wac02).
     ```text
-    // Respuesta
-    
+    git push origin --delete fea/wac02
     ```
 16. Muestra desde GITHUB (navegador web) las ramas que tienes el en repositorio remoto. (Incluye imagen) `adjunta la imagen`
+![imagen010](./img/010.png)
 17. Para finalizar, muestra el log del repositorio local con opciones gráficas. (Incluye imagen) `adjunta la imagen`
+![imagen011](./img/011.png)
 
 ### 3. Enlace repositorio remoto
 
