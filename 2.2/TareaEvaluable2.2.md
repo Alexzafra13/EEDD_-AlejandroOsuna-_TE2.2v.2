@@ -203,10 +203,12 @@
     Agrega al área de stage y realiza commit "Update 03 file. Add book El Silmarillion".
 
 22. Posicionate en la rama `main`, muestra el estado y muestra el contenido del fichero `cat 03.xml`. (Imagen visualizando comandos) `adjunta la imagen`
+![Imagen 002](./img/002.png)
 
 23. Realiza un merge de la rama `fea/wac02` en la rama `main`. ¿Qué comando/s utilizas?
     ```text
-    // Respuesta
+    git merge fea/wac02
+
     
     ``` 
 24. Muestra el estado del repositorio, y muestra el contenido del fichero `03.xml`. (Imagen visualizando comandos) `adjunta la imagen`
@@ -245,7 +247,9 @@
     Agrega al área de stage y realiza commit "Update 03 file. Add book El Hobbit".
 
     ```text
-    // Respuesta
+    git add 03.xml
+
+    git commit -m "Update 03 file. Add book El Hobbit"
     
     ``` 
 
@@ -268,34 +272,38 @@
     Agrega al área de stage y realiza commit "Add 04 file. Add cienca-ficcion books".
 
     ```text
-    // Respuesta
-    
+    git add 04.xml
+    git commit -m "Add 04 file. Add ciencia-ficcion books"
     ``` 
 
 27. Muestra el estado, log una línea y los ficheros que hay en el directorio. (Imagen visualizando comandos) `adjunta la imagen`
     
 28. Vuelve un commit atrás, y muestra el estado, log una línea y los ficheros que hay en el directorio. (Imagen visualizando comandos) `adjunta la imagen`
+![imagen003](./img/003.png)
     
 29. Vuelve al commit anterior, y muestra el estado, log una línea y los ficheros que hay en el directorio. (Imagen visualizando comandos) `adjunta la imagen`
+![imagen004](./img/004.png)
     
 30. Posicionate de nuevo en el último commit, y muestra el estado, log una línea y los ficheros que hay en el directorio. (Imagen visualizando comandos) `adjunta la imagen`
+![imagen005](./img/005.png)
 
 ### 2. Crear repositorio remoto y subir a GITHUB
 
 1. Crea un repositorio remoto en GITHUB llamado `EEDD_{NombreApellido}_TE2.2` público, vacio, sin nada.
 2. Agrega el repositorio remoto a tu repositorio local. ¿Qué comando/s utilizas?
    ```text
-    // Respuesta
+    git remote add origin git remote add origin https://github.com/<Alexzafra13>/EEDD_{AlejandroOsuna}_TE2.2v2.git
     
     ``` 
 3. Muestra los repositorios remotos que tienes configurados. ¿Qué comando/s utilizas?
    ```text
-    // Respuesta
+    git remote -v
+
     
     ``` 
 4. Sube la rama `main` al repositorio remoto. ¿Qué comando/s utilizas?
    ```text
-    // Respuesta
+    
     
     ``` 
 5. Muestra el log de la rama `main` con opciones gráficas. ¿Qué comando/s utilizas?
