@@ -10,6 +10,7 @@
     </libro>
 </libreria>
 
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
     <libreria>
         <libro>
@@ -30,6 +31,9 @@
         </libro>
     </libreria>
 
+=======
+ ```xml
+>>>>>>> fea/wac02
     <?xml version="1.0" encoding="UTF-8"?>
     <libreria>
         <libro>
@@ -48,6 +52,7 @@
             <genero>Fantasía</genero>
             <precio>25</precio>
         </libro>
+<<<<<<< HEAD
         <libro>
             <titulo>El Hobbit</titulo>
             <autor>J.R.R. Tolkien</autor>
@@ -57,3 +62,7 @@
             <precio>15</precio>
         </libro>
     </libreria>
+=======
+    </libreria>
+    ```
+>>>>>>> fea/wac02
